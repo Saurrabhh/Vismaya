@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{452D5464-F3E4-7324-F45E-813ABF6A36B0}</ProjectGuid>
+    <ProjectGuid>{A7364AC9-67DE-3110-F10B-82C9DE1CDBE3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,11 +56,11 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\dooranim.cs" />
     <Compile Include="Assets\Scripts\movement.cs" />
-    <Compile Include="Assets\Scripts\mousemove.cs" />
     <Compile Include="Assets\Scripts\player.cs" />
     <Compile Include="Assets\Scripts\Anim.cs" />
-    <Compile Include="Assets\Scripts\dooranim.cs" />
+    <Compile Include="Assets\Scripts\mousemove.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
